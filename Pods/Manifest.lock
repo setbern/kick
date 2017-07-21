@@ -1,0 +1,15 @@
+PODS:
+  - KontaktSDK (1.4.0)
+  - Socket.IO-Client-Swift (10.2.0)
+
+DEPENDENCIES:
+  - KontaktSDK (~> 1.3)
+  - Socket.IO-Client-Swift (~> 10.2.0)
+
+SPEC CHECKSUMS:
+  KontaktSDK: 2a207477edea5423b5b2db9c483c63e9b348b090
+  Socket.IO-Client-Swift: ecd7fe4d2746a7557e71c2d6e95e23e3be31ddd1
+
+PODFILE CHECKSUM: 7480b8668bb80f5325b74e04f0876dc97c08c0a1
+
+COCOAPODS: 1.2.0
