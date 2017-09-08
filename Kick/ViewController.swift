@@ -18,41 +18,63 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var three: UIButton!
     @IBOutlet weak var four: UIButton!
     @IBOutlet weak var five: UIButton!
+    @IBOutlet weak var status: UILabel!
     
     @IBAction func oneButton(_ sender: UIButton) {
-        toggleButton("one")
-        
+        let state = defaults.bool(forKey: "one")
+        let background = state ? UIColor(red:0.91, green:0.93, blue:0.94, alpha:1.0): UIColor(red:0.00, green:0.65, blue:0.93, alpha:1.0)
+        one.backgroundColor = background
+
+        toggleButton("one", state: state)
     }
     @IBAction func twoButton(_ sender: UIButton) {
-        toggleButton("two")
+        let state = defaults.bool(forKey: "two")
+        let background = state ? UIColor(red:0.91, green:0.93, blue:0.94, alpha:1.0): UIColor(red:0.00, green:0.65, blue:0.93, alpha:1.0)
+        
+        two.backgroundColor = background
+        toggleButton("two", state: state)
+
     }
     
     @IBAction func threeButton(_ sender: UIButton) {
-        toggleButton("three")
+        let state = defaults.bool(forKey: "three")
+        let background = state ? UIColor(red:0.91, green:0.93, blue:0.94, alpha:1.0): UIColor(red:0.00, green:0.65, blue:0.93, alpha:1.0)
+        three.backgroundColor = background
+
+        toggleButton("three", state: state)
     }
     
     @IBAction func fourButton(_ sender: UIButton) {
-        toggleButton("four")
+        let state = defaults.bool(forKey: "four")
+        let background = state ? UIColor(red:0.91, green:0.93, blue:0.94, alpha:1.0): UIColor(red:0.00, green:0.65, blue:0.93, alpha:1.0)
+        
+        four.backgroundColor = background
+
+        toggleButton("four", state: state)
     }
     
     @IBAction func fiveButton(_ sender: UIButton) {
-        toggleButton("five")
+        let state = defaults.bool(forKey: "five")
+        let background = state ? UIColor(red:0.91, green:0.93, blue:0.94, alpha:1.0): UIColor(red:0.00, green:0.65, blue:0.93, alpha:1.0)
+        five.backgroundColor = background
+
+        toggleButton("five", state: state)
     }
     
     
-    func toggleButton(_ socket: String) {
-        let status = defaults.bool(forKey: socket)
-        print("socket \(socket) status: \(status)")
+    func toggleButton(_ socket: String, state: Bool) {
+
+        print("socket \(socket) status: \(state)")
         
         
-        switch status {
+        switch state {
             case true:
             SocketIOManager.sharedInstance.turnOnSocket(socket)
             case false:
             SocketIOManager.sharedInstance.turnOffSocket(socket)
         
         }
-        defaults.set(!status, forKey: socket)
+        defaults.set(!state, forKey: socket)
 
     }
     

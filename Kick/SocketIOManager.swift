@@ -11,14 +11,19 @@ import SocketIO
 
 class SocketIOManager: NSObject {
     static let sharedInstance = SocketIOManager()
-    var socket = SocketIOClient(socketURL: URL(string: "http://192.168.10.56:3000")!, config: [.log(false), .forcePolling(true)])
+    var connection : String = "dissconcted"
+    
+    var socket = SocketIOClient(socketURL: URL(string: "http://192.168.10.73:3000")!, config: [.log(false), .forcePolling(true)])
     //var socket = SocketIOClient(socketURL: URL(string:  "https://kicks-pi.herokuapp.com")!, config: [.log(false), .forcePolling(true)])
 
     override init() {
         super.init()
         print("we lit")
+        
         socket.on(clientEvent: .connect) { data, ack in
             print("boolin bracka bracka")
+            self.connection = "connected"
+            
         }
         
         socket.on("test") { dataArray, ack in
@@ -28,7 +33,7 @@ class SocketIOManager: NSObject {
     }
     
     func establishConnection() {
-        print("lit")
+        print("lit connection")
         socket.connect()
     }
     
@@ -43,6 +48,8 @@ class SocketIOManager: NSObject {
 
     }
     func closeConnection() {
+        print("not lit disconnected")
+        self.connection = "Disconcted"
         socket.disconnect()
     }
 }

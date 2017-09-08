@@ -8,17 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		673389811F21BB2B00745B04 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673389801F21BB2B00745B04 /* UserDefaultsManager.swift */; };
+		673389831F22C8F700745B04 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673389821F22C8F700745B04 /* Colors.swift */; };
 		677C4F781F1304090044FD8F /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677C4F771F1304090044FD8F /* SocketIOManager.swift */; };
 		67AFD8DF1F0F7C5C0029076A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFD8DE1F0F7C5C0029076A /* AppDelegate.swift */; };
 		67AFD8E11F0F7C5C0029076A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFD8E01F0F7C5C0029076A /* ViewController.swift */; };
 		67AFD8E41F0F7C5C0029076A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AFD8E21F0F7C5C0029076A /* Main.storyboard */; };
 		67AFD8E61F0F7C5C0029076A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67AFD8E51F0F7C5C0029076A /* Assets.xcassets */; };
 		67AFD8E91F0F7C5C0029076A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AFD8E71F0F7C5C0029076A /* LaunchScreen.storyboard */; };
+		67F4D68C1F62E144006E2292 /* SocketButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F4D68B1F62E144006E2292 /* SocketButtonCell.swift */; };
 		C04658929148004366638A74 /* Pods_Kick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECEB5060A661A7647C89056 /* Pods_Kick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		673389801F21BB2B00745B04 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		673389821F22C8F700745B04 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		677C4F771F1304090044FD8F /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
 		67AFD8DB1F0F7C5C0029076A /* Kick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67AFD8DE1F0F7C5C0029076A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		67AFD8E51F0F7C5C0029076A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67AFD8E81F0F7C5C0029076A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67AFD8EA1F0F7C5C0029076A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F4D68B1F62E144006E2292 /* SocketButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketButtonCell.swift; sourceTree = "<group>"; };
 		99741C92E659A941170354A8 /* Pods-Kick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kick/Pods-Kick.debug.xcconfig"; sourceTree = "<group>"; };
 		DCF5AE10C4A65E5D0AD48A1B /* Pods-Kick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kick.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kick/Pods-Kick.release.xcconfig"; sourceTree = "<group>"; };
 		DECEB5060A661A7647C89056 /* Pods_Kick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +81,9 @@
 				67AFD8DE1F0F7C5C0029076A /* AppDelegate.swift */,
 				673389801F21BB2B00745B04 /* UserDefaultsManager.swift */,
 				677C4F771F1304090044FD8F /* SocketIOManager.swift */,
+				67F4D68B1F62E144006E2292 /* SocketButtonCell.swift */,
 				67AFD8E01F0F7C5C0029076A /* ViewController.swift */,
+				673389821F22C8F700745B04 /* Colors.swift */,
 				67AFD8E21F0F7C5C0029076A /* Main.storyboard */,
 				67AFD8E51F0F7C5C0029076A /* Assets.xcassets */,
 				67AFD8E71F0F7C5C0029076A /* LaunchScreen.storyboard */,
@@ -131,6 +137,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 7JQM8M6QG2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -218,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F4D68C1F62E144006E2292 /* SocketButtonCell.swift in Sources */,
 				677C4F781F1304090044FD8F /* SocketIOManager.swift in Sources */,
+				673389831F22C8F700745B04 /* Colors.swift in Sources */,
 				67AFD8E11F0F7C5C0029076A /* ViewController.swift in Sources */,
 				673389811F21BB2B00745B04 /* UserDefaultsManager.swift in Sources */,
 				67AFD8DF1F0F7C5C0029076A /* AppDelegate.swift in Sources */,
