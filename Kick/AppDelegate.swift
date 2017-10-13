@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreLocation
+import KontaktSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate{
@@ -30,10 +31,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
             defaults.set(false, forKey: "three")
             defaults.set(false, forKey: "four")
             defaults.set(false, forKey: "five")
+            defaults.set(false, forKey: "all")
             print("this should only run once")
         }
         
-        
+        Kontakt.setAPIKey("LRmWVzJtEnbmtVqoWyVFBoaXPmKuxxGV")
 
         // Override point for customization after application launch.
         return true

@@ -11,38 +11,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
-        <scene sceneID="UhH-sD-oIy">
-            <objects>
-                <navigationController id="Ag9-Rs-ReV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Rrr-54-dRK"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xd8-hg-7wk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ja2-fj-fgw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-222" y="-479"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="XRM-wD-bPc">
-            <objects>
-                <tabBarController id="lbR-PO-keQ" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="7iS-CY-lBO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="BO8-qj-CZO"/>
-                        <segue destination="Ag9-Rs-ReV" kind="relationship" relationship="viewControllers" id="SiM-va-XSc"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ikK-4f-js6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1199" y="-192"/>
-        </scene>
         <!--OG-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -96,7 +64,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lff-8J-cZw">
-                                <rect key="frame" x="1" y="282" width="184" height="131"/>
+                                <rect key="frame" x="1" y="331" width="184" height="131"/>
                                 <color key="backgroundColor" red="0.0" green="0.65490196079999996" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Five">
                                     <color key="titleColor" red="0.086274509799999996" green="0.086274509799999996" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
@@ -112,6 +80,18 @@
                                 <color key="textColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEI-of-XrX">
+                                <rect key="frame" x="189" y="331" width="184" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.65490196079999996" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="All">
+                                    <color key="titleColor" red="0.086274509799999996" green="0.086274509799999996" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="All:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ye5-sf-zPL"/>
+                                    <action selector="fiveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PXt-qo-ea7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.058823529411764705" green="0.062745098039215685" blue="0.062745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -139,6 +119,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="OG" id="wbx-kc-ZNZ"/>
                     <connections>
+                        <outlet property="all" destination="EEI-of-XrX" id="lue-gP-0sI"/>
                         <outlet property="five" destination="Lff-8J-cZw" id="D5z-ZA-JGs"/>
                         <outlet property="four" destination="CbG-6P-7Bj" id="O2k-Xm-wYe"/>
                         <outlet property="one" destination="jKC-Va-WRk" id="zwx-ec-kks"/>
@@ -149,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-250" y="203"/>
+            <point key="canvasLocation" x="-223" y="203"/>
         </scene>
     </scenes>
 </document>

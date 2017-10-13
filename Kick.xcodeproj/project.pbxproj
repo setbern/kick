@@ -16,6 +16,7 @@
 		67AFD8E61F0F7C5C0029076A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67AFD8E51F0F7C5C0029076A /* Assets.xcassets */; };
 		67AFD8E91F0F7C5C0029076A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AFD8E71F0F7C5C0029076A /* LaunchScreen.storyboard */; };
 		67F4D68C1F62E144006E2292 /* SocketButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F4D68B1F62E144006E2292 /* SocketButtonCell.swift */; };
+		67F4D68E1F6329D3006E2292 /* KickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F4D68D1F6329D3006E2292 /* KickTableViewController.swift */; };
 		C04658929148004366638A74 /* Pods_Kick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECEB5060A661A7647C89056 /* Pods_Kick.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		67AFD8E81F0F7C5C0029076A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67AFD8EA1F0F7C5C0029076A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67F4D68B1F62E144006E2292 /* SocketButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketButtonCell.swift; sourceTree = "<group>"; };
+		67F4D68D1F6329D3006E2292 /* KickTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KickTableViewController.swift; sourceTree = "<group>"; };
 		99741C92E659A941170354A8 /* Pods-Kick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kick/Pods-Kick.debug.xcconfig"; sourceTree = "<group>"; };
 		DCF5AE10C4A65E5D0AD48A1B /* Pods-Kick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kick.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kick/Pods-Kick.release.xcconfig"; sourceTree = "<group>"; };
 		DECEB5060A661A7647C89056 /* Pods_Kick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 				67AFD8E01F0F7C5C0029076A /* ViewController.swift */,
 				673389821F22C8F700745B04 /* Colors.swift */,
 				67AFD8E21F0F7C5C0029076A /* Main.storyboard */,
+				67F4D68D1F6329D3006E2292 /* KickTableViewController.swift */,
 				67AFD8E51F0F7C5C0029076A /* Assets.xcassets */,
 				67AFD8E71F0F7C5C0029076A /* LaunchScreen.storyboard */,
 				67AFD8EA1F0F7C5C0029076A /* Info.plist */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67F4D68C1F62E144006E2292 /* SocketButtonCell.swift in Sources */,
+				67F4D68E1F6329D3006E2292 /* KickTableViewController.swift in Sources */,
 				677C4F781F1304090044FD8F /* SocketIOManager.swift in Sources */,
 				673389831F22C8F700745B04 /* Colors.swift in Sources */,
 				67AFD8E11F0F7C5C0029076A /* ViewController.swift in Sources */,
