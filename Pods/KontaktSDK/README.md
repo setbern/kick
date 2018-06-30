@@ -4,30 +4,16 @@
 
 To configure Kontakt.io Devices please use our new [iOS Administration App](https://itunes.apple.com/pl/app/kontakt.io-administration/id1067320511).
 
-![screen](http://kontakt-mobile.s3.amazonaws.com/stich.png?1)
+![screen](https://kontakt-mobile.s3.amazonaws.com/stich.png?4)
 
 ## Sample Code
-You can find sample code from our workshop webinar here:  [kontaktio/kontakt-ios-sdk-workshop](https://github.com/kontaktio/kontakt-ios-sdk-workshop).
-Video will be posted soon.
+You can find our demos and sample code in [Examples folder](https://github.com/kontaktio/kontakt-ios-sdk/tree/master/Examples).
 
 ## Overview
 
 This document shows you a quick way to start using the Kontakt.io SDK in location-aware apps. You will find code examples for core features and best practices that we recommend developers follow.
 
 You can find more detailed information in the [Appledocs](http://developer.kontakt.io/ios-sdk/appledocs/).
-
-##Changes
-This version of the SDK has been completely re-written from scratch since version 6.2. It contains a number of new features which you can read about more compleyely in the  [Appledocs](http://developer.kontakt.io/ios-sdk/appledocs/), but a high level review of what's changed includes:
-
-* **Added support for iOS, tvOS and macOS**
-* Improved Swift 2.0 and 3.0 support
-* All classes are thread safe
-* Support for Kontakt.io Secure Communication and Kontakt.io Secure Shuffling. Better security throughout the app as well to help suppport this. 
-* Better management of core Bluetooth stack to be faster and more efficient.
-* API client now uses NSURLSession throughout to bring our communications up to modern networking standards.
-* Added filters to Eddystone scanning to look for specific frame types
-* All calls are now ascynchronous; before they were all synchronous
-* Suport for Carthage
 
 ## Installing the iOS/tvOS/macOS SDK
 
@@ -47,7 +33,7 @@ To integrate the Kontakt.io iOS/tvOS/macOS SDK into your Xcode project using Coc
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'KontaktSDK', '~> 1.3'
+pod 'KontaktSDK', '~> 1.4'
 ```
 
 Then, run the following command:
@@ -72,7 +58,7 @@ $ brew install carthage
 1. To integrate Kontakt.io SDK into your Xcode project using Carthage, specify it in your `Cartfile`:
 
   ``` bash
-  github "kontaktio/kontakt-ios-sdk" ~> 1.3
+  github "kontaktio/kontakt-ios-sdk" ~> 1.4
   ```
 
 2. Run `carthage update` to build the framework.

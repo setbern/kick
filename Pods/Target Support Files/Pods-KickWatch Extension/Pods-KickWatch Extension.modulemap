@@ -1,0 +1,6 @@
+framework module Pods_KickWatch_Extension {
+  umbrella header "Pods-KickWatch Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,15 +1,41 @@
 PODS:
-  - KontaktSDK (1.4.0)
-  - Socket.IO-Client-Swift (10.2.0)
+  - Alamofire (4.6.0)
+  - KontaktSDK (1.5.1)
+  - PromiseKit (4.5.0):
+    - PromiseKit/Foundation (= 4.5.0)
+    - PromiseKit/QuartzCore (= 4.5.0)
+    - PromiseKit/UIKit (= 4.5.0)
+  - PromiseKit/Alamofire (4.5.0):
+    - Alamofire (~> 4.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/CorePromise (4.5.0)
+  - PromiseKit/Foundation (4.5.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.5.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.5.0):
+    - PromiseKit/CorePromise
+  - Socket.IO-Client-Swift (13.1.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.3)
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
-  - KontaktSDK (~> 1.3)
-  - Socket.IO-Client-Swift (~> 10.2.0)
+  - Alamofire
+  - KontaktSDK
+  - PromiseKit
+  - PromiseKit/Alamofire
+  - Socket.IO-Client-Swift
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
-  KontaktSDK: 2a207477edea5423b5b2db9c483c63e9b348b090
-  Socket.IO-Client-Swift: ecd7fe4d2746a7557e71c2d6e95e23e3be31ddd1
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  KontaktSDK: 68cc25fd7fbab5b03b1c86db440620e55b031580
+  PromiseKit: 9c1d9f6d7b65e3951a90bea7f407c56972be5d8e
+  Socket.IO-Client-Swift: b67a96d6a9e5f271bceb93e99779d2cf77c74868
+  Starscream: dfb1b3f39506717ee52b67fb48de0c8269504cbc
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 7480b8668bb80f5325b74e04f0876dc97c08c0a1
+PODFILE CHECKSUM: 6a6f717f604b1df522f60650ecc1ecead289fa49
 
 COCOAPODS: 1.2.0

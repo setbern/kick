@@ -1,6 +1,6 @@
 //
 //  KontaktSDK
-//  Version: 1.4.0
+//  Version: 1.5.1
 //
 //  Copyright (c) 2015 Kontakt.io. All rights reserved.
 //
@@ -106,7 +106,12 @@ __attribute__((deprecated("Please use `packets` property instead")));
 /**
  *  A reference transmission power for iBeacon advertising (measured at 1 meter).
  */
-@property (nonatomic, strong, readwrite) NSNumber * _Nullable referenceTXPowerIBeacon;
+@property (nonatomic, strong, readwrite) NSNumber * _Nullable referenceTXPowerIBeacon __attribute__((deprecated("Please use `rssiAt1Meter` property instead")));
+
+/**
+ *  A reference transmission power values for iBeacon advertising (measured at 1 meter).
+ */
+@property (nonatomic, strong, readwrite) NSArray <NSNumber *>* _Nullable rssiAt1Meter;
 
 #pragma mark - Eddystone Properties
 ///--------------------------------------------------------------------
@@ -131,7 +136,22 @@ __attribute__((deprecated("Please use `packets` property instead")));
 /**
  *  A reference transmission power for Eddystone advertising (measured at 0 meters).
  */
-@property (nonatomic, strong, readwrite) NSNumber * _Nullable referenceTXPowerEddystone;
+@property (nonatomic, strong, readwrite) NSNumber * _Nullable referenceTXPowerEddystone __attribute__((deprecated("Please use `rssiAt0Meter` property instead")));
+
+/**
+ *  A reference transmission power values for Eddystone advertising (measured at 0 meters).
+ */
+@property (nonatomic, strong, readwrite) NSArray <NSNumber *>* _Nullable rssiAt0Meter;
+
+#pragma mark - Features Properties
+///--------------------------------------------------------------------
+/// @name Features Properties
+///--------------------------------------------------------------------
+
+/**
+ *  The current value of real time clock. This property is currently available only on Beacon PRO device.
+ */
+@property (nonatomic, strong, readwrite) NSDate * _Nullable rtcDate;
 
 #pragma mark - Secure Configuration
 ///--------------------------------------------------------------------

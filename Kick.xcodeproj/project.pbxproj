@@ -7,23 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BF2D819DF7316133A955A80 /* Pods_Kick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F9DBA53ACE811BEC7ACD21 /* Pods_Kick.framework */; };
+		671CD3C61FFDAC7F00703F8A /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677CD4D01FB3C79400A24EE8 /* ApiClient.swift */; };
+		672620251FF5D59C000897B3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672620231FF5D59C000897B3 /* Interface.storyboard */; };
+		672620271FF5D59C000897B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672620261FF5D59C000897B3 /* Assets.xcassets */; };
+		6726202E1FF5D59C000897B3 /* KickWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6726202D1FF5D59C000897B3 /* KickWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		672620331FF5D59C000897B3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672620321FF5D59C000897B3 /* InterfaceController.swift */; };
+		672620351FF5D59C000897B3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672620341FF5D59C000897B3 /* ExtensionDelegate.swift */; };
+		672620371FF5D59C000897B3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672620361FF5D59C000897B3 /* NotificationController.swift */; };
+		672620391FF5D59C000897B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672620381FF5D59C000897B3 /* Assets.xcassets */; };
+		6726203E1FF5D59C000897B3 /* KickWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 672620211FF5D59C000897B3 /* KickWatch.app */; };
+		6726CB631FB3CCE200E9BEEC /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726CB621FB3CCE200E9BEEC /* Socket.swift */; };
 		673389811F21BB2B00745B04 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673389801F21BB2B00745B04 /* UserDefaultsManager.swift */; };
 		673389831F22C8F700745B04 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673389821F22C8F700745B04 /* Colors.swift */; };
+		676B9E5A1F9094F60036C2D6 /* SocketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676B9E591F9094F60036C2D6 /* SocketTableViewController.swift */; };
 		677C4F781F1304090044FD8F /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677C4F771F1304090044FD8F /* SocketIOManager.swift */; };
+		677CD4CF1FB3C32800A24EE8 /* SocketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677CD4CE1FB3C32800A24EE8 /* SocketTableViewCell.swift */; };
+		677CD4D11FB3C79400A24EE8 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677CD4D01FB3C79400A24EE8 /* ApiClient.swift */; };
+		67AD35BC1FB58F6800244DC4 /* GraphFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AD35BB1FB58F6800244DC4 /* GraphFactory.swift */; };
+		67AD35BE1FB5919C00244DC4 /* GeneralHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AD35BD1FB5919C00244DC4 /* GeneralHelper.swift */; };
 		67AFD8DF1F0F7C5C0029076A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFD8DE1F0F7C5C0029076A /* AppDelegate.swift */; };
 		67AFD8E11F0F7C5C0029076A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFD8E01F0F7C5C0029076A /* ViewController.swift */; };
 		67AFD8E41F0F7C5C0029076A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AFD8E21F0F7C5C0029076A /* Main.storyboard */; };
 		67AFD8E61F0F7C5C0029076A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67AFD8E51F0F7C5C0029076A /* Assets.xcassets */; };
 		67AFD8E91F0F7C5C0029076A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67AFD8E71F0F7C5C0029076A /* LaunchScreen.storyboard */; };
-		67F4D68C1F62E144006E2292 /* SocketButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F4D68B1F62E144006E2292 /* SocketButtonCell.swift */; };
+		67D6F75C1FF6F0D900975FB9 /* WatchSocketRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D6F75B1FF6F0D900975FB9 /* WatchSocketRow.swift */; };
+		67D6F75E1FF6F34300975FB9 /* WatchSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D6F75D1FF6F34300975FB9 /* WatchSocket.swift */; };
+		67F1CBD5203007A3005B8EA7 /* GeneralHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AD35BD1FB5919C00244DC4 /* GeneralHelper.swift */; };
+		67F1CBD6203007AD005B8EA7 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726CB621FB3CCE200E9BEEC /* Socket.swift */; };
 		67F4D68E1F6329D3006E2292 /* KickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F4D68D1F6329D3006E2292 /* KickTableViewController.swift */; };
-		C04658929148004366638A74 /* Pods_Kick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DECEB5060A661A7647C89056 /* Pods_Kick.framework */; };
+		C382E785C96A6F93CE1F101D /* Pods_KickWatch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913522687CF7A56131B64AA7 /* Pods_KickWatch_Extension.framework */; };
+		FE514FE6872B4A1C58ADF22D /* Pods_KickWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189E8214BD16EADD5A9602CF /* Pods_KickWatch.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6726202F1FF5D59C000897B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67AFD8D31F0F7C5C0029076A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6726202C1FF5D59C000897B3;
+			remoteInfo = "KickWatch Extension";
+		};
+		6726203C1FF5D59C000897B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67AFD8D31F0F7C5C0029076A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 672620201FF5D59C000897B3;
+			remoteInfo = KickWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		672620441FF5D59C000897B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6726202E1FF5D59C000897B3 /* KickWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672620461FF5D59C000897B3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6726203E1FF5D59C000897B3 /* KickWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		189E8214BD16EADD5A9602CF /* Pods_KickWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KickWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F9DBA53ACE811BEC7ACD21 /* Pods_Kick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671CD3C51FFDA4F200703F8A /* Kick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kick.entitlements; sourceTree = "<group>"; };
+		672620211FF5D59C000897B3 /* KickWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KickWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		672620241FF5D59C000897B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		672620261FF5D59C000897B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		672620281FF5D59C000897B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6726202D1FF5D59C000897B3 /* KickWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KickWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		672620321FF5D59C000897B3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		672620341FF5D59C000897B3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		672620361FF5D59C000897B3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		672620381FF5D59C000897B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6726203A1FF5D59C000897B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6726203B1FF5D59C000897B3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6726CB621FB3CCE200E9BEEC /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 		673389801F21BB2B00745B04 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		673389821F22C8F700745B04 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		676B9E591F9094F60036C2D6 /* SocketTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTableViewController.swift; sourceTree = "<group>"; };
 		677C4F771F1304090044FD8F /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		677CD4CE1FB3C32800A24EE8 /* SocketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketTableViewCell.swift; sourceTree = "<group>"; };
+		677CD4D01FB3C79400A24EE8 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		67AD35BB1FB58F6800244DC4 /* GraphFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphFactory.swift; sourceTree = "<group>"; };
+		67AD35BD1FB5919C00244DC4 /* GeneralHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralHelper.swift; sourceTree = "<group>"; };
 		67AFD8DB1F0F7C5C0029076A /* Kick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67AFD8DE1F0F7C5C0029076A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67AFD8E01F0F7C5C0029076A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,41 +113,93 @@
 		67AFD8E51F0F7C5C0029076A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67AFD8E81F0F7C5C0029076A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67AFD8EA1F0F7C5C0029076A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67F4D68B1F62E144006E2292 /* SocketButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketButtonCell.swift; sourceTree = "<group>"; };
+		67D6F75B1FF6F0D900975FB9 /* WatchSocketRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSocketRow.swift; sourceTree = "<group>"; };
+		67D6F75D1FF6F34300975FB9 /* WatchSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSocket.swift; sourceTree = "<group>"; };
+		67F1CBD720300F12005B8EA7 /* KickWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KickWatch.entitlements; sourceTree = "<group>"; };
 		67F4D68D1F6329D3006E2292 /* KickTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KickTableViewController.swift; sourceTree = "<group>"; };
-		99741C92E659A941170354A8 /* Pods-Kick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kick/Pods-Kick.debug.xcconfig"; sourceTree = "<group>"; };
-		DCF5AE10C4A65E5D0AD48A1B /* Pods-Kick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kick.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kick/Pods-Kick.release.xcconfig"; sourceTree = "<group>"; };
-		DECEB5060A661A7647C89056 /* Pods_Kick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		747E00D15021CEDFAFC3BB88 /* Pods-KickWatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickWatch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickWatch Extension/Pods-KickWatch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		7796F6DC126F279DE573FD55 /* Pods-KickWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KickWatch/Pods-KickWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		7FF6FE30126E14BA96A9CC33 /* Pods-Kick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kick/Pods-Kick.debug.xcconfig"; sourceTree = "<group>"; };
+		913522687CF7A56131B64AA7 /* Pods_KickWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KickWatch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		968C0089844D9DDA74DC9ECC /* Pods-KickWatch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickWatch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KickWatch Extension/Pods-KickWatch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		D6D64E76899AF3FE67442216 /* Pods-Kick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kick.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kick/Pods-Kick.release.xcconfig"; sourceTree = "<group>"; };
+		EA768580A314C8A25501B911 /* Pods-KickWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KickWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-KickWatch/Pods-KickWatch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6726202A1FF5D59C000897B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C382E785C96A6F93CE1F101D /* Pods_KickWatch_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67AFD8D81F0F7C5C0029076A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C04658929148004366638A74 /* Pods_Kick.framework in Frameworks */,
+				1BF2D819DF7316133A955A80 /* Pods_Kick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A0A8E07F8A3799F73EA564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE514FE6872B4A1C58ADF22D /* Pods_KickWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23EDAFF45F7A1653704F7551 /* Pods */ = {
+		598E41F52C21BB22D9580551 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				99741C92E659A941170354A8 /* Pods-Kick.debug.xcconfig */,
-				DCF5AE10C4A65E5D0AD48A1B /* Pods-Kick.release.xcconfig */,
+				58F9DBA53ACE811BEC7ACD21 /* Pods_Kick.framework */,
+				189E8214BD16EADD5A9602CF /* Pods_KickWatch.framework */,
+				913522687CF7A56131B64AA7 /* Pods_KickWatch_Extension.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		672620221FF5D59C000897B3 /* KickWatch */ = {
+			isa = PBXGroup;
+			children = (
+				67F1CBD720300F12005B8EA7 /* KickWatch.entitlements */,
+				672620231FF5D59C000897B3 /* Interface.storyboard */,
+				672620261FF5D59C000897B3 /* Assets.xcassets */,
+				672620281FF5D59C000897B3 /* Info.plist */,
+			);
+			path = KickWatch;
+			sourceTree = "<group>";
+		};
+		672620311FF5D59C000897B3 /* KickWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67D6F75D1FF6F34300975FB9 /* WatchSocket.swift */,
+				67D6F75B1FF6F0D900975FB9 /* WatchSocketRow.swift */,
+				672620321FF5D59C000897B3 /* InterfaceController.swift */,
+				672620341FF5D59C000897B3 /* ExtensionDelegate.swift */,
+				672620361FF5D59C000897B3 /* NotificationController.swift */,
+				672620381FF5D59C000897B3 /* Assets.xcassets */,
+				6726203A1FF5D59C000897B3 /* Info.plist */,
+				6726203B1FF5D59C000897B3 /* PushNotificationPayload.apns */,
+			);
+			path = "KickWatch Extension";
 			sourceTree = "<group>";
 		};
 		67AFD8D21F0F7C5C0029076A = {
 			isa = PBXGroup;
 			children = (
+				676B9E591F9094F60036C2D6 /* SocketTableViewController.swift */,
 				67AFD8DD1F0F7C5C0029076A /* Kick */,
+				672620221FF5D59C000897B3 /* KickWatch */,
+				672620311FF5D59C000897B3 /* KickWatch Extension */,
 				67AFD8DC1F0F7C5C0029076A /* Products */,
-				23EDAFF45F7A1653704F7551 /* Pods */,
-				BB1B40CA6C5074578CEF1E78 /* Frameworks */,
+				A0A66601D3F22724CA37DA4A /* Pods */,
+				598E41F52C21BB22D9580551 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +207,8 @@
 			isa = PBXGroup;
 			children = (
 				67AFD8DB1F0F7C5C0029076A /* Kick.app */,
+				672620211FF5D59C000897B3 /* KickWatch.app */,
+				6726202D1FF5D59C000897B3 /* KickWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,10 +216,10 @@
 		67AFD8DD1F0F7C5C0029076A /* Kick */ = {
 			isa = PBXGroup;
 			children = (
+				671CD3C51FFDA4F200703F8A /* Kick.entitlements */,
 				67AFD8DE1F0F7C5C0029076A /* AppDelegate.swift */,
 				673389801F21BB2B00745B04 /* UserDefaultsManager.swift */,
 				677C4F771F1304090044FD8F /* SocketIOManager.swift */,
-				67F4D68B1F62E144006E2292 /* SocketButtonCell.swift */,
 				67AFD8E01F0F7C5C0029076A /* ViewController.swift */,
 				673389821F22C8F700745B04 /* Colors.swift */,
 				67AFD8E21F0F7C5C0029076A /* Main.storyboard */,
@@ -91,21 +227,71 @@
 				67AFD8E51F0F7C5C0029076A /* Assets.xcassets */,
 				67AFD8E71F0F7C5C0029076A /* LaunchScreen.storyboard */,
 				67AFD8EA1F0F7C5C0029076A /* Info.plist */,
+				677CD4CE1FB3C32800A24EE8 /* SocketTableViewCell.swift */,
+				677CD4D01FB3C79400A24EE8 /* ApiClient.swift */,
+				6726CB621FB3CCE200E9BEEC /* Socket.swift */,
+				67AD35BB1FB58F6800244DC4 /* GraphFactory.swift */,
+				67AD35BD1FB5919C00244DC4 /* GeneralHelper.swift */,
 			);
 			path = Kick;
 			sourceTree = "<group>";
 		};
-		BB1B40CA6C5074578CEF1E78 /* Frameworks */ = {
+		A0A66601D3F22724CA37DA4A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DECEB5060A661A7647C89056 /* Pods_Kick.framework */,
+				7FF6FE30126E14BA96A9CC33 /* Pods-Kick.debug.xcconfig */,
+				D6D64E76899AF3FE67442216 /* Pods-Kick.release.xcconfig */,
+				7796F6DC126F279DE573FD55 /* Pods-KickWatch.debug.xcconfig */,
+				EA768580A314C8A25501B911 /* Pods-KickWatch.release.xcconfig */,
+				968C0089844D9DDA74DC9ECC /* Pods-KickWatch Extension.debug.xcconfig */,
+				747E00D15021CEDFAFC3BB88 /* Pods-KickWatch Extension.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		672620201FF5D59C000897B3 /* KickWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672620451FF5D59C000897B3 /* Build configuration list for PBXNativeTarget "KickWatch" */;
+			buildPhases = (
+				7537C9E0BABF9C3BA5AF3E86 /* [CP] Check Pods Manifest.lock */,
+				6726201F1FF5D59C000897B3 /* Resources */,
+				672620441FF5D59C000897B3 /* Embed App Extensions */,
+				F4A0A8E07F8A3799F73EA564 /* Frameworks */,
+				ED41FDB11D9EF321BC6052CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672620301FF5D59C000897B3 /* PBXTargetDependency */,
+			);
+			name = KickWatch;
+			productName = KickWatch;
+			productReference = 672620211FF5D59C000897B3 /* KickWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6726202C1FF5D59C000897B3 /* KickWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672620431FF5D59C000897B3 /* Build configuration list for PBXNativeTarget "KickWatch Extension" */;
+			buildPhases = (
+				73EA2F05E8A92786AA608D84 /* [CP] Check Pods Manifest.lock */,
+				672620291FF5D59C000897B3 /* Sources */,
+				6726202A1FF5D59C000897B3 /* Frameworks */,
+				6726202B1FF5D59C000897B3 /* Resources */,
+				B4C5FAA78CE73C89F8095119 /* [CP] Embed Pods Frameworks */,
+				8EEA789DEF757FAA95681BCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KickWatch Extension";
+			productName = "KickWatch Extension";
+			productReference = 6726202D1FF5D59C000897B3 /* KickWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		67AFD8DA1F0F7C5C0029076A /* Kick */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67AFD8ED1F0F7C5C0029076A /* Build configuration list for PBXNativeTarget "Kick" */;
@@ -116,10 +302,12 @@
 				67AFD8D91F0F7C5C0029076A /* Resources */,
 				0D4AA649E391AC749151C418 /* [CP] Embed Pods Frameworks */,
 				9D704A9966A104EB84287756 /* [CP] Copy Pods Resources */,
+				672620461FF5D59C000897B3 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6726203D1FF5D59C000897B3 /* PBXTargetDependency */,
 			);
 			name = Kick;
 			productName = Kick;
@@ -132,15 +320,33 @@
 		67AFD8D31F0F7C5C0029076A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = BernSternWhoEarns;
 				TargetAttributes = {
+					672620201FF5D59C000897B3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = 7JQM8M6QG2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6726202C1FF5D59C000897B3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = 7JQM8M6QG2;
+						ProvisioningStyle = Automatic;
+					};
 					67AFD8DA1F0F7C5C0029076A = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 7JQM8M6QG2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
@@ -162,11 +368,30 @@
 			projectRoot = "";
 			targets = (
 				67AFD8DA1F0F7C5C0029076A /* Kick */,
+				672620201FF5D59C000897B3 /* KickWatch */,
+				6726202C1FF5D59C000897B3 /* KickWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6726201F1FF5D59C000897B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672620271FF5D59C000897B3 /* Assets.xcassets in Resources */,
+				672620251FF5D59C000897B3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6726202B1FF5D59C000897B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672620391FF5D59C000897B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67AFD8D91F0F7C5C0029076A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,6 +435,51 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		73EA2F05E8A92786AA608D84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7537C9E0BABF9C3BA5AF3E86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EEA789DEF757FAA95681BCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KickWatch Extension/Pods-KickWatch Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9D704A9966A104EB84287756 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,18 +495,68 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kick/Pods-Kick-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B4C5FAA78CE73C89F8095119 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KickWatch Extension/Pods-KickWatch Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED41FDB11D9EF321BC6052CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KickWatch/Pods-KickWatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		672620291FF5D59C000897B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F1CBD6203007AD005B8EA7 /* Socket.swift in Sources */,
+				672620371FF5D59C000897B3 /* NotificationController.swift in Sources */,
+				672620351FF5D59C000897B3 /* ExtensionDelegate.swift in Sources */,
+				67D6F75E1FF6F34300975FB9 /* WatchSocket.swift in Sources */,
+				67F1CBD5203007A3005B8EA7 /* GeneralHelper.swift in Sources */,
+				672620331FF5D59C000897B3 /* InterfaceController.swift in Sources */,
+				67D6F75C1FF6F0D900975FB9 /* WatchSocketRow.swift in Sources */,
+				671CD3C61FFDAC7F00703F8A /* ApiClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67AFD8D71F0F7C5C0029076A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67F4D68C1F62E144006E2292 /* SocketButtonCell.swift in Sources */,
+				677CD4CF1FB3C32800A24EE8 /* SocketTableViewCell.swift in Sources */,
+				676B9E5A1F9094F60036C2D6 /* SocketTableViewController.swift in Sources */,
+				6726CB631FB3CCE200E9BEEC /* Socket.swift in Sources */,
+				677CD4D11FB3C79400A24EE8 /* ApiClient.swift in Sources */,
 				67F4D68E1F6329D3006E2292 /* KickTableViewController.swift in Sources */,
 				677C4F781F1304090044FD8F /* SocketIOManager.swift in Sources */,
 				673389831F22C8F700745B04 /* Colors.swift in Sources */,
 				67AFD8E11F0F7C5C0029076A /* ViewController.swift in Sources */,
+				67AD35BE1FB5919C00244DC4 /* GeneralHelper.swift in Sources */,
+				67AD35BC1FB58F6800244DC4 /* GraphFactory.swift in Sources */,
 				673389811F21BB2B00745B04 /* UserDefaultsManager.swift in Sources */,
 				67AFD8DF1F0F7C5C0029076A /* AppDelegate.swift in Sources */,
 			);
@@ -244,7 +564,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		672620301FF5D59C000897B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6726202C1FF5D59C000897B3 /* KickWatch Extension */;
+			targetProxy = 6726202F1FF5D59C000897B3 /* PBXContainerItemProxy */;
+		};
+		6726203D1FF5D59C000897B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 672620201FF5D59C000897B3 /* KickWatch */;
+			targetProxy = 6726203C1FF5D59C000897B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		672620231FF5D59C000897B3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				672620241FF5D59C000897B3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		67AFD8E21F0F7C5C0029076A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -264,6 +605,127 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6726203F1FF5D59C000897B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7796F6DC126F279DE573FD55 /* Pods-KickWatch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = KickWatch/KickWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JQM8M6QG2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = KickWatch_Extension;
+				INFOPLIST_FILE = KickWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BernSternWhoEarns.Kick.watchkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		672620401FF5D59C000897B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA768580A314C8A25501B911 /* Pods-KickWatch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = KickWatch/KickWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JQM8M6QG2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = KickWatch_Extension;
+				INFOPLIST_FILE = KickWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BernSternWhoEarns.Kick.watchkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		672620411FF5D59C000897B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968C0089844D9DDA74DC9ECC /* Pods-KickWatch Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JQM8M6QG2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "KickWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BernSternWhoEarns.Kick.watchkit.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		672620421FF5D59C000897B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747E00D15021CEDFAFC3BB88 /* Pods-KickWatch Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JQM8M6QG2;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "KickWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BernSternWhoEarns.Kick.watchkit.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
 		67AFD8EB1F0F7C5C0029076A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -359,35 +821,66 @@
 		};
 		67AFD8EE1F0F7C5C0029076A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99741C92E659A941170354A8 /* Pods-Kick.debug.xcconfig */;
+			baseConfigurationReference = 7FF6FE30126E14BA96A9CC33 /* Pods-Kick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kick/Kick.entitlements;
 				DEVELOPMENT_TEAM = 7JQM8M6QG2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/PromiseKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Socket.IO-Client-Swift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Starscream\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"\"${PODS_ROOT}/KontaktSDK/Cocoapods/iOS\"",
+					"$(SRCROOT)",
+					"/**",
+				);
 				INFOPLIST_FILE = Kick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BernSternWhoEarns.Kick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		67AFD8EF1F0F7C5C0029076A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCF5AE10C4A65E5D0AD48A1B /* Pods-Kick.release.xcconfig */;
+			baseConfigurationReference = D6D64E76899AF3FE67442216 /* Pods-Kick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kick/Kick.entitlements;
 				DEVELOPMENT_TEAM = 7JQM8M6QG2;
 				INFOPLIST_FILE = Kick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BernSternWhoEarns.Kick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		672620431FF5D59C000897B3 /* Build configuration list for PBXNativeTarget "KickWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672620411FF5D59C000897B3 /* Debug */,
+				672620421FF5D59C000897B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672620451FF5D59C000897B3 /* Build configuration list for PBXNativeTarget "KickWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6726203F1FF5D59C000897B3 /* Debug */,
+				672620401FF5D59C000897B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		67AFD8D61F0F7C5C0029076A /* Build configuration list for PBXProject "Kick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

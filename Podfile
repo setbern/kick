@@ -6,6 +6,29 @@ target 'Kick' do
   use_frameworks!
 
   # Pods for Kick
-  pod 'KontaktSDK', '~> 1.3'
-  pod 'Socket.IO-Client-Swift', '~> 10.2.0'
+    pod 'KontaktSDK'
+     pod 'Socket.IO-Client-Swift'
+     pod 'SwiftyJSON'
+     pod 'Alamofire'
+     pod 'PromiseKit'
+     pod 'PromiseKit/Alamofire'
+end
+
+target 'KickWatch' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for KickWatch
+
+end
+
+target 'KickWatch Extension' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for KickWatch Extension
+    pod 'SwiftyJSON'
+    pod 'Alamofire'
+    pod 'PromiseKit'
+    pod 'PromiseKit/Alamofire'
 end
